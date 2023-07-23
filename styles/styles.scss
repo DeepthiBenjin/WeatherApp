@@ -1,0 +1,123 @@
+// styles.scss
+
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.container.mt-4{
+  background-image: url('../images/weather-background.jpg'); /* Path to your background image */
+  background-size: cover; /* Adjust the image size to cover the entire container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+h2 {
+  color: #050505;
+}
+
+input[type="text"] {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 20px;
+}
+p {
+  font-style: normal;
+  font-weight: bold;
+}
+
+// Add any additional custom styles for your weather information here
+// For example, style the card that displays the weather data
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+// Customize the look of individual weather data elements
+.card-text {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.weather-info { 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.weather-info h3 {
+  color: #090909;
+  margin-bottom: 20px;
+}
+
+
+.weather-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.weather-value {
+  width: 48%; /* Adjust the width based on your layout preference */
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.weather-value img {
+  width: 10%; /* Set the width of the icon image */
+  margin-right: 10px;
+}
+
+.weather-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-weight: bold;
+  color: #007bff;
+  font-size:20px;
+}
+
+.wind-speed {
+  color: #28a745;
+}
+
+.wind-direction {
+  color: #dc3545;
+}

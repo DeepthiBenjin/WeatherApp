@@ -1,0 +1,1 @@
+{"version":1,"defects":{"WeatherAppTest::testInvalidLocation":7},"times":{"WeatherAppTest::testValidLocation":1.89,"WeatherAppTest::testInvalidLocation":0.639}}
