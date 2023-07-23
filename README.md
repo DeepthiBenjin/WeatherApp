@@ -12,4 +12,6 @@ Welcome to Weather App, a simple  APP to get the weather updates of a location p
 
 3. Run the project by accessing it through your web browser.(index.php)
 
+4. Run the phpunit test - php vendor/bin/phpunit tests
+
 
